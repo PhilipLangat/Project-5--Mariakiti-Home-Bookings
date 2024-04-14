@@ -1,17 +1,17 @@
 body {
-  font-family: Arial, sans-serif; /* Example font, adjust as needed */
+  font-family: Arial, sans-serif; 
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5; /* Light gray background */
-  color: #333; /* Dark gray text */
+  background-color: #f5f5f5; 
+  color: #333; 
 }
 
 header {
   text-align: center;
   padding: 20px;
-  background-image: linear-gradient(to right, #191d21, #21252b); /* Subtle gradient for header */
-  color: #fff; /* White text for header */
+  background-image: linear-gradient(to right, #191d21, #21252b); 
+  color: #fff; 
 }
 
 nav {
@@ -35,17 +35,17 @@ footer {
 }
 
 nav a:hover {
-  color: #facc15; /* Gold hover color */
+  color: #facc15; 
   transform: translateY(-2px);
 }
 
 h1 {
   font-size: 3em;
   margin-bottom: 10px;
-  color: #facc15; /* Gold heading */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+  color: #facc15;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
 }
 
 main {
-  max-width: 800px; /* Adjust width as needed */
-  margin: 0 auto; /* Center content horizontally */
+  max-width: 800px; 
+  margin: 0 auto; 

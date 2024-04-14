@@ -1,6 +1,5 @@
 body {
-  font-family: Arial, sans-serif; /* Example font, adjust as needed */
-  font-size: 16px;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: cornsilk;
@@ -41,7 +40,7 @@ nav a:hover {
 
 .about-us {
   padding: 20px;
-  text-align: center; /* Adjust if you want a different layout */
+  text-align: center;
 }
 
 .about-us h1{
@@ -58,10 +57,9 @@ nav a:hover {
 }
 
 .about-us img {
-  margin: 0 auto; /* Center the image horizontally */
-  display: block; /* Ensure consistent centering */
-  max-width: 500px; /* Optional: Set a maximum width */
-}
+  margin: 0 auto;
+  display: block;
+  max-width: 500px;
 
 footer {
   text-align: center;

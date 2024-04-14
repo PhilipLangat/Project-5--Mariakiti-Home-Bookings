@@ -37,12 +37,8 @@ body {
   img {
     display: block;
     margin: 0 auto;
-    width: 300px; /* Adjust width as needed */
+    width: 300px;
     margin-bottom: 20px;
-  }
-  
-  form {
-    /* Include your previous form styles here */
   }
   
   label {
@@ -64,8 +60,4 @@ body {
     background-color: #21252b;
     color: #fff;
   }
-  
-  /* Style the textarea and submit button using your previous styles */
-  
-  /* Add hover effect for submit button (optional) */
   
