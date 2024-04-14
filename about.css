@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif; /* Example font, adjust as needed */
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: cornsilk;
+  color: #041822;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-image: linear-gradient(to right, #191d21, #21252b);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #21252b;
+  color: #fff;
+}
+
+nav a:hover {
+  color: #facc15;
+  transform: translateY(-2px);
+}
+
+.about-us {
+  padding: 20px;
+  text-align: center; /* Adjust if you want a different layout */
+}
+
+.about-us h1{
+  color:black;
+}
+.about-us h2 {
+  margin-bottom: 10px;
+  color: #1f0c0c;
+}
+
+.about-us p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.about-us img {
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure consistent centering */
+  max-width: 500px; /* Optional: Set a maximum width */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #21252b;
+  color: #fff;
+}
