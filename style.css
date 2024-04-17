@@ -68,8 +68,9 @@ footer {
 .experience a
 
 
-@media only screen and (max-width: 768px) {
-  body {
+@media screen and (max-width: 768px) {
+
+  header {
     padding: 10px;
   }
 
@@ -78,18 +79,8 @@ footer {
     align-items: center;
   }
 
-  nav a {
-    padding: 5px 10px;
+  .about-us p {
+    font-size: 16px; 
   }
 
-  h1 {
-    font-size: 1.5em; 
-  }
-
-  img {
-    width: 100%; 
-  }
-
-  
 }
-
