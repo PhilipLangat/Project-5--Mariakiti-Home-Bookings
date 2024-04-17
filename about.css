@@ -6,19 +6,16 @@ body {
   color: #041822;
   overflow-x: hidden;
 }
-
 header {
   text-align: center;
-  padding: 20px;
+  padding: 20px; 
   background-image: linear-gradient(to right, #191d21, #21252b);
 }
-
 nav {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-
 nav a {
   color: #fff;
   text-decoration: none;
@@ -32,25 +29,21 @@ footer {
   background-color: #21252b;
   color: #fff;
 }
-
 nav a:hover {
   color: #facc15;
   transform: translateY(-2px);
 }
-
 .about-us {
-  padding: 20px;
+  padding: 20px; 
   text-align: center;
 }
-
-.about-us h1{
-  color:black;
+.about-us h1 {
+  color: black;
 }
 .about-us h2 {
   margin-bottom: 10px;
   color: #1f0c0c;
 }
-
 .about-us p {
   line-height: 1.5;
   margin-bottom: 20px;
@@ -59,11 +52,22 @@ nav a:hover {
 .about-us img {
   margin: 0 auto;
   display: block;
-  max-width: 500px;
+  max-width: 100%; 
+}
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #21252b;
-  color: #fff;
+@media screen and (max-width: 768px) {
+
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .about-us p {
+    font-size: 16px; 
+  }
+
 }

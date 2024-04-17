@@ -12,33 +12,43 @@
     <a href="book.html">Book Now</a>
     <a href="contactUs.html">Contact Us</a>
   </nav>
-  <h1>Contact Mariakiti Home Bookings</h1>
-  <p>We'd love to hear from you! Have questions about our homes, booking process, or anything else? Fill out the form below and we'll get back to you as soon as possible.</p>
+  <section class="contact-container">  <h1>Contact Mariakiti Home Bookings</h1>
+    <p>We'd love to hear from you! Have questions about our homes, booking process, or anything else? Fill out the form below and we'll get back to you as soon as possible.</p>
   
-  <img src="contact.jpg" alt="Mariakiti Homes Contact Us">
+    <img src="contact.jpg" alt="Mariakiti Homes Contact Us">
 
-  <form action="submit_form.php" method="POST">
-    <label for="inquiry">Inquiry Type:</label>
-    <select id="inquiry" name="inquiry">
-      <option value="">Select Inquiry Type</option>
-      <option value="general">General Inquiry</option>
-      <option value="booking">Booking Question</option>
-      <option value="feedback">Feedback or Suggestion</option>
-    </select><br><br>
+    <form action="submit_form.php" method="POST">
+      <div class="form-group">  <label for="inquiry">Inquiry Type:</label>
+        <select id="inquiry" name="inquiry">
+          <option value="">Select Inquiry Type</option>
+          <option value="general">General Inquiry</option>
+          <option value="booking">Booking Question</option>
+          <option value="feedback">Feedback or Suggestion</option>
+        </select>
+      </div>
 
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required><br><br>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br><br>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
 
-    <label for="phone">Phone Number (Optional):</label>
-    <input type="tel" id="phone" name="phone"><br><br>
+      <div class="form-group">
+        <label for="phone">Phone Number (Optional):</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
 
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
+      <div class="form-group">
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+      </div>
 
-    <input type="submit" value="Send Inquiry">
-  </form>
+      <input type="submit" value="Send Inquiry">
+    </form>
+  </section>
 </body>
 </html>
